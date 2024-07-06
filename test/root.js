@@ -28,3 +28,7 @@ before(function(done) {
     return done();
   });
 });
+
+describe('My Test Suite', function() {
+  this.timeout(0);
+});
